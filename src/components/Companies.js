@@ -8,7 +8,7 @@ import { Card, Button } from "react-bootstrap";
 import CrtImg from "./img/ctr.png"
 import Bosch from "./img/bosch.png"
 import Dayco from "./img/dayco.png"
-import Mrw from "./img/mrw.png"
+import Mrw from "./img/Mrw.png"
 import Nipparts from "./img/nipparts.png"
 const Companies = () => {
   const categories = [

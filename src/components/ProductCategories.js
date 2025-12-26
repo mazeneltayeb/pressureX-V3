@@ -103,29 +103,33 @@ import BodyImage from './img/body.png';
 import ChassisImage from './img/chassis.png';
 import ElectricalImage from './img/electrical.png';
 import EngineImage from './img/engine.png';
+import useTranslate from '@/hooks/useTranslate';
+
 const ProductCategories = () => {
+  const { t, lang } = useTranslate(null);
+  
   const categories = [
     {
       id: 1,
-      title: "اجزاء جسم السيارة",
+      title: t('CarBodyParts'),
       image: BodyImage, // تأكد من المسار
       description: "وصف فئة اجزاء جسم السيارة"
     },
     {
       id: 2,
-      title: "الاجزاء الكهربائية",
+      title: t('ElectricalParts'),
       image: ElectricalImage, // أضف الصورة
       description: "وصف الاجزاء الكهربائية"
     },
        {
       id: 3,
-      title: "اجزاء الهيكل",
+      title: t('ChassisParts'),
       image: ChassisImage, // أضف الصورة
       description: "وصف الاجزاء الكهربائية"
     },
           {
       id: 4,
-      title: "اجزاء المحرك",
+      title: t('EngineParts'),
       image: EngineImage, // أضف الصورة
       description: "وصف الاجزاء الكهربائية"
     },
@@ -139,8 +143,8 @@ const ProductCategories = () => {
         style={{
           fontSize: "6vh"
         }}
-        className="text-center m-0 fw-bolder">فئات المنتجات</h2>
-        <p className="text-center text-secondary">حرصت الشركة علي العمل بكامل طاقتها من أجل توسيع مجالاتها في الإنتشار بالسوق المصري</p>
+        className="text-center m-0 fw-bolder">{t('categoriesH1')}</h2>
+        <p className="text-center text-secondary">{t('categoriesP')}</p>
         <div className="row">
           {categories.map((category) => (
             <div className="col-md-3 mb-4" key={category.id}>
