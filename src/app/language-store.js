@@ -23,10 +23,11 @@ const siteTranslations = {
     /////start home//////
     //vedio
     abouttext:"بريشر نحن شركة مصرية متخصصة في استيراد قطع غيار السيارات عالية الجودة من الصين. نحرص على توفير منتجات موثوقة بأسعار تنافسية لتلبية احتياجات السوق المصري. نعمل مع أفضل المصانع والموردين لضمان معايير الجودة والأمان. هدفنا هو تقديم خدمة مميزة تضمن لعملائنا الثقة والاعتمادية في كل تعامل.",
-
+    //
 
     //  button
     button_more:"أقرأ المزيد",
+    //
 
     // categorie
     categoriesH1:"فئات المنتجات",
@@ -35,7 +36,44 @@ const siteTranslations = {
     ElectricalParts:"الاجزاء الكهربائية",
     ChassisParts:"اجزاء الهيكل",
     EngineParts:"اجزاء المحرك",
-    
+    //
+
+    //Clients//
+    customerH1:"عملائنا حول مصر",
+    customerP:"نمتلك قاعدة عملاء قوية تمتد عبر جميع محافظات مصر، تعكس ثقة السوق في خدماتنا.",
+    ShopName:"",
+    Name_of_the_province:"",
+    //
+   // egyptGovernorates
+      cairo: "القاهرة",
+      giza: "الجيزة",
+      alexandria: "الإسكندرية",
+      dakahlia: "الدقهلية",
+      red_sea: "البحر الأحمر",
+      beheira: "البحيرة",
+      fayoum: "الفيوم",
+      gharbia: "الغربية",
+      ismailia: "الإسماعيلية",
+      menofia: "المنوفية",
+      minya: "المنيا",
+      qalyubia: "القليوبية",
+      new_valley: "الوادي الجديد",
+      suez: "السويس",
+      aswan: "أسوان",
+      assiut: "أسيوط",
+      beni_suef: "بني سويف",
+      port_said: "بورسعيد",
+      damietta: "دمياط",
+      sharqia: "الشرقية",
+      south_sinai: "جنوب سيناء",
+      kafr_el_sheikh: "كفر الشيخ",
+      matrouh: "مطروح",
+      luxor: "الأقصر",
+      qena: "قنا",
+      north_sinai: "شمال سيناء",
+      sohag: "سوهاج",
+    //
+
     /////end home/////
 
     // Messages
@@ -71,6 +109,42 @@ const siteTranslations = {
     ElectricalParts:"Electrical Parts",
     ChassisParts:"Chassis Parts",
     EngineParts:"Engine Parts",
+
+      //Clients//
+    customerH1:"Our clients around the egyptian",
+    customerP:"We have a strong customer base that extends across all governorates of Egypt, reflecting the market's confidence in our services.",
+    ShopName:"",
+    Name_of_the_province:"",
+    //
+     // egyptGovernorates
+      cairo: "Cairo",
+      giza: "Giza",
+      alexandria: "Alexandria",
+      dakahlia: "Dakahlia",
+      red_sea: "Red Sea",
+      beheira: "Beheira",
+      fayoum: "Fayoum",
+      gharbia: "Gharbia",
+      ismailia: "Ismailia",
+      menofia: "Menofia",
+      minya: "Minya",
+      qalyubia: "Qalyubia",
+      new_valley: "New Valley",
+      suez: "Suez",
+      aswan: "Aswan",
+      assiut: "Assiut",
+      beni_suef: "Beni Suef",
+      port_said: "Port Said",
+      damietta: "Damietta",
+      sharqia: "Sharqia",
+      south_sinai: "South Sinai",
+      kafr_el_sheikh: "Kafr El Sheikh",
+      matrouh: "Matrouh",
+      luxor: "Luxor",
+      qena: "Qena",
+      north_sinai: "North Sinai",
+      sohag: "Sohag"
+
     ///////end home//////
   },
   
@@ -104,6 +178,41 @@ const siteTranslations = {
       EngineParts:"Pièces de Moteur",
     ///////end home////////
 
+      //Clients//
+    customerH1:"Nos clients autour de l'égyptien",
+    customerP:"Nous avons une solide clientèle qui s'étend dans tous les gouvernorats d'Égypte, reflétant la confiance du marché dans nos services.",
+    ShopName:"",
+    Name_of_the_province:"",
+    //
+       // egyptGovernorates
+      cairo: "Cairo",
+      giza: "Giza",
+      alexandria: "Alexandria",
+      dakahlia: "Dakahlia",
+      red_sea: "Red Sea",
+      beheira: "Beheira",
+      fayoum: "Fayoum",
+      gharbia: "Gharbia",
+      ismailia: "Ismailia",
+      menofia: "Menofia",
+      minya: "Minya",
+      qalyubia: "Qalyubia",
+      new_valley: "New Valley",
+      suez: "Suez",
+      aswan: "Aswan",
+      assiut: "Assiut",
+      beni_suef: "Beni Suef",
+      port_said: "Port Said",
+      damietta: "Damietta",
+      sharqia: "Sharqia",
+      south_sinai: "South Sinai",
+      kafr_el_sheikh: "Kafr El Sheikh",
+      matrouh: "Matrouh",
+      luxor: "Luxor",
+      qena: "Qena",
+      north_sinai: "North Sinai",
+      sohag: "Sohag"
+
   },
   
   zh: {
@@ -133,6 +242,42 @@ const siteTranslations = {
     ElectricalParts:"电气零件",
     ChassisParts:"底盘零件",
     EngineParts:"发动机零件",
+
+      //Clients//
+    customerH1:"我们的客户遍布埃及",
+    customerP:"我们拥有强大的客户基础，遍及埃及各省，反映了市场对我们服务的信心。",
+    ShopName:"",
+    Name_of_the_province:"",
+    //
+       // egyptGovernorates
+      cairo: "Cairo",
+      giza: "Giza",
+      alexandria: "Alexandria",
+      dakahlia: "Dakahlia",
+      red_sea: "Red Sea",
+      beheira: "Beheira",
+      fayoum: "Fayoum",
+      gharbia: "Gharbia",
+      ismailia: "Ismailia",
+      menofia: "Menofia",
+      minya: "Minya",
+      qalyubia: "Qalyubia",
+      new_valley: "New Valley",
+      suez: "Suez",
+      aswan: "Aswan",
+      assiut: "Assiut",
+      beni_suef: "Beni Suef",
+      port_said: "Port Said",
+      damietta: "Damietta",
+      sharqia: "Sharqia",
+      south_sinai: "South Sinai",
+      kafr_el_sheikh: "Kafr El Sheikh",
+      matrouh: "Matrouh",
+      luxor: "Luxor",
+      qena: "Qena",
+      north_sinai: "North Sinai",
+      sohag: "Sohag"
+
     ///////end home///////
 
   }

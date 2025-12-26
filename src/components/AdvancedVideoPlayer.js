@@ -359,7 +359,7 @@ const AdvancedVideoPlayer = ({
         marginBottom: "20px",
         justifyContent: "center",
         // width:"50%",
-        width:" 100px",
+        width:" 90%",
         height:" 40px",
         // border:"0"
       }}>

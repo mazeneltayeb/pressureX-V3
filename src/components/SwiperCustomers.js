@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import styles from './SwiperCarSlider.module.css';
+import useTranslate from '@/hooks/useTranslate';
 
 // استيراد الصور
 import oneImage from './img/1.jpg';
@@ -26,49 +27,50 @@ const SwiperCustomers = ({
   const [isRTL, setIsRTL] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const { t, lang } = useTranslate(null);
   
   // بيانات افتراضية
   const defaultSlides = [
     {
       id: 1,
-      title: "اسم المحل",
-      description: "  اسم المحافظة",
+      title:  t('cairo'),
+      // description: t('cairo'),
       image: oneImage
     },
     {
       id: 2,
-        title: "اسم المحل",
-      description: "  اسم المحافظة",
+        title: t('giza'),
+      // description: t('giza'),
       image: twoImage,
     },
     {
       id: 3,
-       title: "اسم المحل",
-      description: "  اسم المحافظة",
+       title:t('alexandria'),
+      // description: t('alexandria'),
       image: threeImage
     },
     {
       id: 4,
-      title: "اسم المحل",
-      description: "  اسم المحافظة",
+      title: t('ismailia'),
+      // description:t('ismailia'),
       image: fourImage
     },
     {
       id: 5,
-        title: "اسم المحل",
-      description: "  اسم المحافظة",
+        title: t('suez'),
+      // description: t('suez'),
       image: fiveImage,
     },
     {
       id: 6,
-        title: "اسم المحل",
-      description: "  اسم المحافظة",
+        title:t('port_said'),
+      // description:t('port_said'),
       image: sixImage
     },
     {
       id: 7,
-         title: "اسم المحل",
-      description: "  اسم المحافظة",
+         title: t('minya'),
+      // description:t('minya'),
       image: sevenImage,
     }
  
@@ -122,8 +124,8 @@ const SwiperCustomers = ({
                     textAlign:"center",
                     marginBottom:"50px"
                 }}>
-         <h1>عملائنا حول الجمهورية</h1>
-                         <p className="text-center text-secondary">حرصت الشركة علي العمل بكامل طاقتها من أجل توسيع مجالاتها في الإنتشار بالسوق المصري</p>
+         <h1>{t("customerH1")}</h1>
+                         <p className="text-center text-secondary">{t("customerP")}</p>
 
       </div>
                
@@ -195,7 +197,7 @@ const SwiperCustomers = ({
               {/* </div> */}
               <div className={styles.carInfo}  >
                 <h3 className={styles.carTitle}>{slide.title}</h3>
-                <p className={styles.carDescription}>{slide.description}</p>
+                {/* <p className={styles.carDescription}>{slide.description}</p> */}
               </div>
             {/* // </div> */}
           </SwiperSlide>

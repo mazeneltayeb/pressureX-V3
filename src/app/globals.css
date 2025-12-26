@@ -347,7 +347,7 @@ width: 95% !important;
 
 @media  (max-width: 767px){
 .vedio-about{
-     width: 35% !important;
+     /* width: 35% !important; */
   align-self: center !important;
 }
 }
