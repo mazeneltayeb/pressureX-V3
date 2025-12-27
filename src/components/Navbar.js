@@ -184,8 +184,10 @@ export default function NavigationBar() {
     
     <Navbar.Brand as={Link} href="/" onClick={closeNavbar}>
             <Image src={imgLogo} alt="Logo" width={100} height={40} />
+            
         </Navbar.Brand>
         {/* زر القائمة المخصص - بدون حدود وحجم صغير - يظهر فقط في الشاشات الصغيرة */}
+        <LanguageButton  onClick={closeNavbar} className=""/>
         <button
           className="navbar-toggler p-0 d-lg-none"  // d-lg-none = يختفي في الشاشات الكبيرة
           type="button"
@@ -234,6 +236,7 @@ export default function NavigationBar() {
                 transform: 'rotate(-45deg)',
                 transition: 'all 0.3s ease'
               }}></span>
+
             </div>
           ) : (
             // أيقونة ثلاث خطوط ☰ عند إغلاق القائمة - حجم صغير
@@ -273,8 +276,8 @@ export default function NavigationBar() {
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/contact" onClick={closeNavbar}>اتصل بنا</Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/articles" onClick={closeNavbar}>المقالات</Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/pdfs" onClick={closeNavbar}>كشفات</Nav.Link>  */}
-                 <LanguageButton  onClick={closeNavbar}/>
-                         <Nav.Link className="button fw-bolder fs-6" as={Link} href="/" onClick={closeNavbar}>{t('home')}</Nav.Link>
+            {/* <LanguageButton  onClick={closeNavbar}/> */}
+            <Nav.Link className="button fw-bolder fs-6" as={Link} href="/" onClick={closeNavbar}>{t('home')}</Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/about" onClick={closeNavbar}>{t('about')} </Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/contact" onClick={closeNavbar}> {t('contact')}</Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/articles" onClick={closeNavbar}>{t('Article')}</Nav.Link>

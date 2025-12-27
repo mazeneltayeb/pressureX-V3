@@ -315,11 +315,14 @@ export default function LanguageButton() {
           display: 'flex',
           alignItems: 'center',
           gap: '8px',
-          padding: '6px 12px',
-          background: '#FFEA03',
+          // padding: '6px 12px',
+          padding: '3px 3px',
+          // background: '#FFEA03',
+          background:"transparent",
           color: '#333',
-          border: '1px solid #e0e0e0',
-          borderRadius: '20px',
+          // border: '1px solid #e0e0e0',
+          border:"0",
+          // borderRadius: '20px',
           cursor: 'pointer',
           fontSize: '14px',
           minWidth: 'auto',
@@ -340,11 +343,11 @@ export default function LanguageButton() {
         }}>
           {currentLang.flag}
         </div>
-        <span style={{ fontSize: '13px', fontWeight: '500' }}>
+        {/* <span style={{ fontSize: '13px', fontWeight: '500' }}>
           {currentLang.name}
-        </span>
+        </span> */}
         <span style={{ 
-          fontSize: '10px', 
+          fontSize: '8px', 
           color: '#666',
           marginLeft: '4px'
         }}>
