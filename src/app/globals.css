@@ -352,13 +352,13 @@ width: 95% !important;
 }
 }
 @media  (max-width: 767px){
-.content-section div  p{
+.content-section section  p{
    text-align: center;
 }
 } 
 
 @media  (min-width: 414px){
-.content-section div div{
+.content-section section div{
   font-size: 1.5rem;
   
 }

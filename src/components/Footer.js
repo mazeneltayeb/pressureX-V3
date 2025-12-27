@@ -4,8 +4,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import useTranslate from '@/hooks/useTranslate';
 export default function Footer() {
+  const { t, lang } = useTranslate(null);
   return (
     <footer className="bg-dark text-light pt-5 pb-5 mt-5">
       <Container>
@@ -20,19 +21,19 @@ export default function Footer() {
        
         
           <Col md={4} className="mb-3">
-            <h5 className="fw-bold mb-3">تصفح معنا</h5>
+            <h5 className="fw-bold mb-3">{t('Browse')}</h5>
             <div className="d-flex f-row justify-content-evenly">
               <ul className="list-unstyled">
-              <li><a  href="/" className="text-light text-decoration-none">الرئيسية</a></li>
-              <li><a href="/store" className="text-light text-decoration-none">المتجر</a></li>
+              <li><a  href="/" className="text-light text-decoration-none">{t('home')}</a></li>
+              <li><a href="/store" className="text-light text-decoration-none">{t('Store')}</a></li>
             
-              <li><a href="/articles" className="text-light text-decoration-none">المقالات</a></li>
+              <li><a href="/articles" className="text-light text-decoration-none">{t('Article')}</a></li>
          
 
             </ul>
             <ul className="list-unstyled d-flex justify-content-evenly flex-column"> 
-                   <li><a href="/about" className="text-light text-decoration-none">من نحن</a></li> 
-                <li><a href="/contact" className="text-light text-decoration-none">اتصل بنا</a></li>                           
+                   <li><a href="/about" className="text-light text-decoration-none">{t('about')}</a></li> 
+                <li><a href="/contact" className="text-light text-decoration-none">{t('contact')} </a></li>                           
             {/* <h6 className="fw-bold mb-2">الاسعار</h6> */}
               {/* <li><a  href="/prices/gold" className="text-light text-decoration-none">اسعار الذهب</a></li>
               <li><a href="/prices/currency" className="text-light text-decoration-none">اسعار الصرف</a></li>
@@ -45,7 +46,7 @@ export default function Footer() {
           </Col>
 
           <Col md={4} className="mb-3">
-            <h5 className="fw-bold mb-3">Contact</h5>
+            {/* <h5 className="fw-bold mb-3">{t('companies_h1')}</h5> */}
             <p>Email: ahmedhaborob3e@gmail.com</p>
             <p>Phone: +201281090459</p>
           </Col>

@@ -328,7 +328,7 @@ const AdvancedVideoPlayer = ({
   
   // المحتوى الافتراضي للجزء الأيسر
   const defaultContent = (
-    <div className=''
+    <section className=''
     
     style={{
       // padding: '30px',
@@ -349,25 +349,25 @@ const AdvancedVideoPlayer = ({
     >
 من نحن      
 </div> */}
-      <div 
+      <h1 
        className='vedio-about main-button'
       style={{
-        fontSize: '21px',
+        // fontSize: '21px',
         display: 'flex',
         gap: '15px',
         flexWrap: 'wrap',
-        marginBottom: "20px",
-        justifyContent: "center",
+        marginBottom: "5px",
+        justifyContent: "space-evenly",
         // width:"50%",
         width:" 90%",
-        height:" 40px",
+        // height:" 40px",
         // border:"0"
       }}>
 
 {/* من نحن      */}
   {t('about')}
  
-      </div>
+      </h1>
       
       <p style={{
         fontSize: '16px',
@@ -391,8 +391,8 @@ const AdvancedVideoPlayer = ({
         href="/about"
         as={Link}
         style={{
-             width:" 100px",
-        height:" 40px",
+        //      width:" 100px",
+        // height:" 40px",
         }}
        >
           {/* اقرأ المزيد */}
@@ -402,7 +402,7 @@ const AdvancedVideoPlayer = ({
         
     
       </div>
-    </div>
+    </section>
   );
 
   return (
@@ -413,7 +413,7 @@ const AdvancedVideoPlayer = ({
       width: '100%',
       maxWidth: '1400px',
       margin: '0 auto',
-      padding: '20px',
+      padding: '5px',
       alignItems: 'stretch',
       minHeight: '500px'
     }}>

@@ -22,11 +22,10 @@ const siteTranslations = {
     
     /////start home//////
     //vedio
-    abouttext:"بريشر نحن شركة مصرية متخصصة في استيراد قطع غيار السيارات عالية الجودة من الصين. نحرص على توفير منتجات موثوقة بأسعار تنافسية لتلبية احتياجات السوق المصري. نعمل مع أفضل المصانع والموردين لضمان معايير الجودة والأمان. هدفنا هو تقديم خدمة مميزة تضمن لعملائنا الثقة والاعتمادية في كل تعامل.",
     //
-
+      abouttext:"في بريشر نوفر للتجار والموزعين قطع غيار سيارات عالية الجودة مستوردة مباشرة من مصانع معتمدة في الصين، لتضمن استمرارية التوريد، وثبات الجودة، وزيادة ثقة عملائك. نعمل بأسعار تنافسية ومعايير صارمة تواكب متطلبات السوق المصري، مع التزام كامل بالدعم والتعاون طويل الأمد. كما نقدم منتجات موثوقة تلبي احتياجات المستخدم النهائي وتضمن أداءً يعتمد عليه على المدى الطويل تواصل معنا وابدأ شراكة قائمة على الجودة والاعتمادية.",
     //  button
-    button_more:"أقرأ المزيد",
+    button_more:"تواصل معنا",
     //
 
     // categorie
@@ -73,6 +72,35 @@ const siteTranslations = {
       north_sinai: "شمال سيناء",
       sohag: "سوهاج",
     //
+     
+        //WeOffer//
+    we_offer_h1:"مميزات شركتنا في قطع غيار السيارات",
+    we_offer_p:"نسعى لنكون شريكك الأول في مصر، من خلال الجودة ، الانتشار الواسع، والتسعير التنافسي",
+                  // //show room
+    show_room_title:"أول غرفة عرض لقطع غيار في مصر",
+    show_room_description:"تعاين قطع الغيار الأصلية قبل الشراء في مساحة عرضنا المميزة",
+    show_room:"Show Room",
+     
+                   ////Delivery
+    delivery_we_offer_title: "توصيل لكل مصر",
+    delivery_we_offer_description:"نصل إليك أينما كنت، توصيل سريع وموثوق",
+                     ////list
+    list_we_offer_title: "تشكيلة ضخمة",
+    list_we_offer_description:"كشوفاتنا الشاملة تضم أكبر تشكيلة قطع غيار محدثة باستمرار",
+                  ////price
+    price_we_offer_title: "سعر لا يُقارن",
+    price_we_offer_description:"أفضل سعر في السوق، مع ضمان الجودة",
+    //end WeOffer//
+
+    //Companies
+     companies_h1:"شركاؤنا من كبرى مصنعي قطع غيار السيارات عالمياً",
+    companies_p:"نقدم لكم فقط قطع غيار أصلية ومعتمدة من أشهر العلامات التجارية في العالم، لضمان الجودة والأداء الأمثل لمركباتكم.",
+   //end Companies
+
+    ///Footer
+    Browse:"تصفح معنا", 
+    //end Footer
+
 
     /////end home/////
 
@@ -96,9 +124,7 @@ const siteTranslations = {
 
     ///////start home//////
     //vedio
-    abouttext:"Pressure we are an Egyptian company specialized in importing high quality auto parts from China. We are keen to provide reliable products at competitive prices to meet the needs of the Egyptian market. We work with the best factories and suppliers to ensure quality and safety standards. Our goal is to provide a distinctive service that guarantees our customers confidence and reliability in every transaction.",
-
-
+    abouttext:"At Pressure, we supply traders and distributors with high-quality automotive spare parts imported directly from certified factories in China, ensuring consistent supply, stable quality, and increased trust from your customers. We operate with competitive pricing and strict quality standards that meet the demands of the Egyptian market, alongside a strong commitment to long-term support and cooperation. We also provide reliable products that meet end-user needs and deliver dependable performance over time,Contact us and start a partnership built on quality and reliability.",
     //button
     button_more:"Read more",
 
@@ -111,7 +137,7 @@ const siteTranslations = {
     EngineParts:"Engine Parts",
 
       //Clients//
-    customerH1:"Our clients around the egyptian",
+    customerH1:"Our clients around the Egyptian",
     customerP:"We have a strong customer base that extends across all governorates of Egypt, reflecting the market's confidence in our services.",
     ShopName:"",
     Name_of_the_province:"",
@@ -143,7 +169,36 @@ const siteTranslations = {
       luxor: "Luxor",
       qena: "Qena",
       north_sinai: "North Sinai",
-      sohag: "Sohag"
+      sohag: "Sohag",
+    //
+
+      //WeOffer//
+    we_offer_h1:"Our Advantages In Auto Spare Parts",
+    we_offer_p:"We aim to be your first partner in Egypt, through quality, wide availability, and competitive pricing",
+                  // //show room
+    show_room_title:"The first auto parts showroom in Egypt",
+    show_room_description:"Examine original spare parts before purchasing in our special display space",
+    show_room:"Show Room",
+     
+                   ////Delivery
+    delivery_we_offer_title: "Delivery Across Egypt",
+    delivery_we_offer_description: "We reach you wherever you are, fast and reliable delivery",
+                     ////list
+    list_we_offer_title: "Huge Collection",
+    list_we_offer_description:"Our comprehensive catalogs include the largest continuously updated spare parts collection",
+                  ////price
+    price_we_offer_title: "Unbeatable Price",
+    price_we_offer_description:"Best price in the market, with quality guarantee",
+    //end WeOffer//
+
+//Companies//
+    companies_h1:"Our partners from the world's leading auto parts manufacturers",
+    companies_p:"We provide only original and certified spare parts from the most famous global brands, ensuring quality and optimal performance for your vehicles.",
+    //end Companies//
+
+      ///Footer
+    Browse:"Browse with us", 
+    //end Footer
 
     ///////end home//////
   },
@@ -161,30 +216,33 @@ const siteTranslations = {
     sign_out:"Déconnectez-vous",
 
 
-      ///////start home///////
-     //vedio
-     abouttext:"Pressure nous sommes une société égyptienne spécialisée dans l'importation de pièces automobiles de haute qualité en provenance de Chine. Nous tenons à fournir des produits fiables à des prix compétitifs pour répondre aux besoins du marché égyptien. Nous travaillons avec les meilleures usines et fournisseurs pour garantir des normes de qualité et de sécurité. Notre objectif est de fournir un service distinctif qui garantit à nos clients confiance et fiabilité dans chaque transaction.",
+///////start home///////
 
-  
-    //  button
+     //vedio//
+     abouttext:"Chez Pressure, nous fournissons aux commerçants et distributeurs des pièces détachées automobiles de haute qualité, importées directement de manufactures certifiées en Chine, garantissant une continuité d’approvisionnement, une qualité constante et une confiance accrue de vos clients. Nous proposons des prix compétitifs et respectons des normes strictes répondant aux exigences du marché égyptien, avec un engagement total en matière de support et de collaboration à long terme. Nous offrons également des produits fiables répondant aux besoins de l’utilisateur final et assurant des performances durables Contactez-nous et commencez un partenariat fondé sur la qualité et la fiabilité.",
+    //end vedio //
+
+    //button//
     button_more:"En savoir plus",
+    //end button//
 
-   //categories
-     categoriesH1:"Catégories de produits",
-     categoriesP:"Chez Pressure, nous tenons à fournir toutes les pièces de rechange pour les différentes parties de la voiture, avec des normes de qualité sans compromis.",
+    //categories//
+      categoriesH1:"Catégories de produits",
+      categoriesP:"Chez Pressure, nous tenons à fournir toutes les pièces de rechange pour les différentes parties de la voiture, avec des normes de qualité sans compromis.",
       CarBodyParts:"Pièces de Carrosserie",
       ElectricalParts:"Pièces Électriques",
       ChassisParts:"Pièces de Châssis",
       EngineParts:"Pièces de Moteur",
-    ///////end home////////
 
-      //Clients//
-    customerH1:"Nos clients autour de l'égyptien",
+    //end categories//
+    //Clients//
+    customerH1:"Nos clients autour de l'Égyptien",
     customerP:"Nous avons une solide clientèle qui s'étend dans tous les gouvernorats d'Égypte, reflétant la confiance du marché dans nos services.",
     ShopName:"",
     Name_of_the_province:"",
-    //
-       // egyptGovernorates
+    //end Clients//
+
+    // egyptGovernorates
       cairo: "Cairo",
       giza: "Giza",
       alexandria: "Alexandria",
@@ -211,7 +269,40 @@ const siteTranslations = {
       luxor: "Luxor",
       qena: "Qena",
       north_sinai: "North Sinai",
-      sohag: "Sohag"
+      sohag: "Sohag",
+
+        //WeOffer//
+    we_offer_h1:"Nos atouts dans les pièces détachées automobiles",
+    we_offer_p:"Nous visons à être votre premier partenaire en Égypte, grâce à la qualité, une large disponibilité et des prix compétitifs",
+                  // //show room
+    show_room_title:"Le premier showroom de pièces détachées en Égypte",
+    show_room_description: "Examinez les pièces détachées originales avant l'achat dans notre espace d'exposition unique",
+    show_room:"Show Room",
+     
+                   ////Delivery
+    delivery_we_offer_title: "Livraison dans tout l'Égypte",
+    delivery_we_offer_description:"Nous vous livrons où que vous soyez, livraison rapide et fiable",
+                     ////list
+    list_we_offer_title: "Une vaste collection",
+    list_we_offer_description:"Nos catalogues complets comprennent la plus grande collection de pièces détachées mise à jour en continu",
+                  ////price
+    price_we_offer_title:"Prix imbattable",
+    price_we_offer_description:"Meilleur prix du marché, avec garantie de qualité",
+    //end WeOffer//
+
+        //Companies//
+    companies_h1:"Nos partenaires parmi les principaux fabricants de pièces détachées automobiles au monde",
+    companies_p:"Nous proposons uniquement des pièces détachées originales et certifiées des marques mondiales les plus célèbres, garantissant qualité et performance optimale pour vos véhicules.",
+
+    //end Companies//
+
+    
+      ///Footer
+    Browse:"Naviguez avec nous", 
+    //end Footer
+    ///////end home////////
+
+  
 
   },
   
@@ -230,7 +321,7 @@ const siteTranslations = {
     /////////start home/////// 
 
      //vedio
-     abouttext:"我们是一家埃及公司，专门从中国进口高品质的汽车零部件。 我们热衷于以具有竞争力的价格提供可靠的产品，以满足埃及市场的需求。 我们与最好的工厂和供应商合作，以确保质量和安全标准。 我们的目标是提供一个独特的服务，保证我们的客户在每一笔交易的信心和可靠性。",
+     abouttext:"我们是一家埃及公司，我们为贸易商和分销商提供高品质汽车零配件，直接从中国认证工厂进口，确保稳定供货、品质一致，并提升客户对您的信任。我们以具有竞争力的价格和严格的质量标准运营，全面满足埃及市场的需求，并致力于长期支持与合作。同时，我们也为终端用户提供可靠的产品，确保持久稳定的性能表现 联系我们，开启以质量与可靠性为基础的合作伙伴关系。",
 
     //  button
     button_more:"阅读更多",
@@ -276,8 +367,35 @@ const siteTranslations = {
       luxor: "Luxor",
       qena: "Qena",
       north_sinai: "North Sinai",
-      sohag: "Sohag"
+      sohag: "Sohag",
 
+      //WeOffer//
+    we_offer_h1: "我们在汽车零件方面的优势",
+    we_offer_p:"我们致力于成为您在埃及的首选合作伙伴，通过品质、广泛的覆盖和具有竞争力的价格",
+                  // //show room
+    show_room_title:"埃及首个汽车零件展厅",
+    show_room_description:"在我们的特色展区查看原装零件后再购买",
+    show_room:"Show Room",
+     
+                   ////Delivery
+    delivery_we_offer_title: "埃及全境配送",
+    delivery_we_offer_description:"无论您身在何处，我们提供快速可靠的配送",
+                     ////list
+    list_we_offer_title: "丰富的系列",
+    list_we_offer_description:"我们的完整目录包含持续更新的最大零件系列",
+                  ////price
+    price_we_offer_title: "无可比拟的价格",
+    price_we_offer_description:"市场上最优惠的价格，保证质量",
+
+        //Companies//
+    companies_h1:"我们的合作伙伴来自全球领先的汽车零件制造商",
+    companies_p:"我们仅提供来自全球知名品牌的原装认证零件，确保您的车辆获得最佳质量和性能。",
+    //end Companies//
+
+    //end WeOffer//
+      ///Footer
+    Browse:"与我们一起浏览", 
+    //end Footer
     ///////end home///////
 
   }

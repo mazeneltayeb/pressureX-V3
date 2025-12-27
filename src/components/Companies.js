@@ -10,11 +10,14 @@ import Bosch from "./img/bosch.png"
 import Dayco from "./img/dayco.png"
 import Mrw from "./img/mrw.png"
 import Nipparts from "./img/nipparts.png"
+import useTranslate from '@/hooks/useTranslate';
+
 const Companies = () => {
+const { t, lang } = useTranslate(null);
   const categories = [
     {
       id: 1,
-      title:"اول غرفة عرض في مصر",
+      title:"شعار شركة بوش لقطع غيار السيارات - Crt",
       number:50,
       image: CrtImg, // تأكد من المسار
       description: "هتقدر تعاين كل قطعة بنفسك وتشوف جودتها على الطبيعة",
@@ -22,7 +25,7 @@ const Companies = () => {
     },
     {
       id: 2,
-      title: "هنوصلك في اى مكان",
+      title: "شعار شركة بوش لقطع غيار السيارات - Bosch Auto Parts",
         number:20,
       image: Bosch, // أضف الصورة
       description: "عربيتنا مغطية جميع انحاء الجمهورية",
@@ -30,7 +33,7 @@ const Companies = () => {
     },
        {
       id: 3,
-      title: "كشوفات",
+      title: "شعار شركة بوش لقطع غيار السيارات - Dayco",
         number:30 ,
       image: Dayco, // أضف الصورة
       description: "اكبر تشكيلة قطع غيار في مصر بتتحديث شهريا",
@@ -39,7 +42,7 @@ const Companies = () => {
     },
           {
       id: 4,
-      title:"العروض والاسعار",
+      title:"شعار شركة بوش لقطع غيار السيارات - Mrw",
         number:10,
       image: Mrw, // أضف الصورة
       description: "ارخص الاسعار واعلى جودة في السوق المصري وافضل الخصومات",
@@ -47,7 +50,7 @@ const Companies = () => {
     },
        {
       id: 5,
-      title:"العروض والاسعار",
+      title:"شعار شركة بوش لقطع غيار السيارات - Nipparts",
         number:10,
       image: Nipparts, // أضف الصورة
       description: "ارخص الاسعار واعلى جودة في السوق المصري وافضل الخصومات",
@@ -61,8 +64,8 @@ const Companies = () => {
       <div className="">
         <h1
         
-        className="text-center mb-2">افضل الشركات</h1>
-                <p className="text-center text-secondary mb-4"> لقطع غيار سيارتك </p>
+        className="text-center mb-2">{t('companies_h1')}</h1>
+                <p className="text-center text-secondary mb-4"> {t('companies_p')}</p>
 
         <div className="row"
          style={{

@@ -44,8 +44,8 @@ export default function Home() {
   />
   <WeOffer/>
   
-   <LatestArticles />
-<Numbers/>
+   {/* <LatestArticles />
+<Numbers/> */}
 <Companies/>
   {/* إعلان داخل الصفحة */}
   <AdSlot width="90%" height="150px" label="إعلان منتصف الصفحة" />

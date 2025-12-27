@@ -6,47 +6,51 @@ import { Card, Button } from "react-bootstrap";
 import { FaTruck } from "react-icons/fa6";
 import { LiaClipboardListSolid } from "react-icons/lia";
 import { BiSolidOffer } from "react-icons/bi";
+import useTranslate from '@/hooks/useTranslate';
 
 
 
 // import ElectricalImage from './img/electrical.png';
 // import EngineImage from './img/engine.png';
 const WeOffer = () => {
+  const { t, lang } = useTranslate(null);
+  
   const categories = [
     {
       id: 1,
-      title:"اول غرفة عرض في مصر",
+      title: t('show_room_title'),
       number:50,
       // image: ShowRoom, // تأكد من المسار
-      description: "هتقدر تعاين كل قطعة بنفسك وتشوف جودتها على الطبيعة",
-       icon: "Show Room",
+      description:t('show_room_description'),
+       icon: 'Show Room',
     },
     {
       id: 2,
-      title: "هنوصلك في اى مكان",
+      title: t('delivery_we_offer_title'),
         number:20,
       // image: Trank, // أضف الصورة
-      description: "عربيتنا مغطية جميع انحاء الجمهورية",
+      description: t('delivery_we_offer_description'),
        icon: <FaTruck />
     },
        {
       id: 3,
-      title: "كشوفات",
+      title: t('list_we_offer_title'),
         number:30 ,
       // image: List, // أضف الصورة
-      description: "اكبر تشكيلة قطع غيار في مصر بتتحديث شهريا",
+      description: t('list_we_offer_description'),
        icon: <LiaClipboardListSolid />
 
     },
           {
       id: 4,
-      title:"العروض والاسعار",
+      title:t('price_we_offer_title'),
         number:10,
       // image: Trank, // أضف الصورة
-      description: "ارخص الاسعار واعلى جودة في السوق المصري وافضل الخصومات",
+      description: t('price_we_offer_description'),
       icon: <BiSolidOffer />
     },
     // ... أضف بقية الفئات
+    
   ];
 
   return (
@@ -54,8 +58,8 @@ const WeOffer = () => {
       <div className="">
         <h1
         
-        className="text-center mb-4">ماذا نقدم لكم</h1>
-                <p className="text-center text-secondary">حرصت الشركة علي العمل بكامل طاقتها من أجل توسيع مجالاتها في الإنتشار بالسوق المصري</p>
+        className="text-center mb-4">{t('we_offer_h1')}</h1>
+                <p className="text-center text-secondary">{t('we_offer_p')}</p>
 
         <div className="row" style={{
           display: "flex",
