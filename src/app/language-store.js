@@ -100,10 +100,23 @@ const siteTranslations = {
     ///Footer
     Browse:"تصفح معنا", 
     //end Footer
-
-
     /////end home/////
 
+    //Contact//
+    contact_h1:"اتصل بنا",
+    contact_name:"الاسم الكامل",
+    contact_name_placeholder:"اكتب اسمك هنا",
+    contact_email:"البريد الإلكتروني",
+    contact_email_placeholder:"",
+    contact_phone_number:"رقم الهاتف",
+    contact_massege:"الرسالة",
+    contact_massege_placeholder:"اكتب رسالتك هنا...",
+    contact_send_button:"ارسل",
+    //end Contact//
+    //about us//
+    about_us_text_page:"في بريشر نوفّر للتجار والموزعين قطع غيار سيارات عالية الجودة يتم استيرادها مباشرة من مصانع معتمدة في الصين، بما يضمن استمرارية التوريد وثبات الجودة وتعزيز ثقة عملائك في منتجاتك. نعتمد على معايير جودة صارمة وأسعار تنافسية تلائم متطلبات السوق المصري، مع التزام كامل بالدعم الفني والتعاون طويل الأمد لضمان نمو أعمال شركائنا. كما نقدم قطع غيار موثوقة تلبي احتياجات المستخدم النهائي وتحقق أداءً قويًا وعمرًا افتراضيًا أطول، لتكون بريشر خيارك الأمثل في سوق قطع غيار السيارات في مصر.",
+     about_us_h1:"مورد قطع غيار السيارات في مصر",
+    //end about us//
     // Messages
     loading: "جاري التحميل...",
     success: "تم بنجاح!",
@@ -199,8 +212,23 @@ const siteTranslations = {
       ///Footer
     Browse:"Browse with us", 
     //end Footer
-
     ///////end home//////
+
+    contact_h1: "Contact Us",
+contact_name: "Full Name",
+contact_name_placeholder: "Enter your name here",
+contact_email: "Email Address",
+contact_email_placeholder: "",
+contact_phone_number: "Phone Number",
+contact_massege: "Message",
+contact_massege_placeholder: "Write your message here...",
+contact_send_button: "Send",
+
+
+ //about us//
+    about_us_text_page:"imported directly from certified manufacturers in China. Our solutions ensure consistent supply, stable product quality, and enhanced customer trust, helping you strengthen your position in the Egyptian automotive spare parts market. We operate with competitive wholesale pricing and strict quality control standards that meet market demands, alongside a full commitment to long-term support and strategic cooperation. In addition, we provide reliable auto parts designed to meet end-user needs, delivering dependable performance, durability, and safety over the long term.",
+     about_us_h1:"Automotive Spare Parts Supplier in Egypt",
+    //end about us//
   },
   
   fr: {
@@ -301,7 +329,21 @@ const siteTranslations = {
     Browse:"Naviguez avec nous", 
     //end Footer
     ///////end home////////
+    contact_h1: "Contactez-nous",
+contact_name: "Nom complet",
+contact_name_placeholder: "Entrez votre nom ici",
+contact_email: "Adresse e-mail",
+contact_email_placeholder: "",
+contact_phone_number: "Numéro de téléphone",
+contact_massege: "Message",
+contact_massege_placeholder: "Écrivez votre message ici...",
+contact_send_button: "Envoyer",
 
+
+ //about us//
+    about_us_text_page:"automobiles haut de gamme, importées directement de fabricants certifiés en Chine. Nos solutions garantissent une continuité d’approvisionnement, une qualité constante et une confiance renforcée de vos clients, vous permettant de consolider votre position sur le marché égyptien des pièces automobiles. Nous proposons des prix de gros compétitifs et appliquons des normes strictes de contrôle qualité, tout en nous engageant pleinement dans un support professionnel et une collaboration à long terme. Par ailleurs, nous offrons des pièces fiables répondant aux besoins de l’utilisateur final et assurant des performances durables, sûres et efficaces.",
+   about_us_h1:"Fournisseur de pièces détachées automobiles en Égypte"
+    //end about us//
   
 
   },
@@ -397,7 +439,21 @@ const siteTranslations = {
     Browse:"与我们一起浏览", 
     //end Footer
     ///////end home///////
+    contact_h1: "联系我们",
+contact_name: "全名",
+contact_name_placeholder: "在此输入您的姓名",
+contact_email: "电子邮箱",
+contact_email_placeholder: "",
+contact_phone_number: "电话号码",
+contact_massege: "留言",
+contact_massege_placeholder: "在此填写您的留言...",
+contact_send_button:  "发送",
 
+
+ //about us//
+    about_us_text_page:"在 Pressure，我们专注于为贸易商和分销商提供高品质汽车零配件，所有产品均直接从中国认证制造工厂进口。我们的供应体系确保稳定供货、品质一致，并有效提升客户对您的信任，助力您在埃及汽车零配件市场中稳步发展。我们以具有竞争力的批发价格运营，并严格执行质量控制标准，同时致力于长期支持与战略合作。此外，我们还为终端用户提供可靠耐用的汽车配件，确保长期稳定的性能、安全性和使用价值。",
+    about_us_h1:"埃及汽车零配件供应商"
+    //end about us//
   }
 };
 

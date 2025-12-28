@@ -280,7 +280,7 @@ export default function NavigationBar() {
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/" onClick={closeNavbar}>{t('home')}</Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/about" onClick={closeNavbar}>{t('about')} </Nav.Link>
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/contact" onClick={closeNavbar}> {t('contact')}</Nav.Link>
-            <Nav.Link className="button fw-bolder fs-6" as={Link} href="/articles" onClick={closeNavbar}>{t('Article')}</Nav.Link>
+            {/* <Nav.Link className="button fw-bolder fs-6" as={Link} href="/articles" onClick={closeNavbar}>{t('Article')}</Nav.Link> */}
             <Nav.Link className="button fw-bolder fs-6" as={Link} href="/pdfs" onClick={closeNavbar}>{t('Lists')}</Nav.Link> 
             {/* dropdown الأسعار يظهر فقط لما ندوس عليه */}
             <div className="nav-item" ref={dropdownRef} style={{ position: 'relative' }}>

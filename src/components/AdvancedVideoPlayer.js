@@ -388,7 +388,7 @@ const AdvancedVideoPlayer = ({
       }}>
         <Button
         className='main-button'
-        href="/about"
+        href="/contact"
         as={Link}
         style={{
         //      width:" 100px",

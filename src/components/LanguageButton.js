@@ -210,7 +210,6 @@ export default function LanguageButton() {
     { code: 'en', name: 'English', flag: '🇺🇸' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'zh', name: '中文', flag: '🇨🇳' },
-  
   ];
   
   const currentLang = languages.find(l => l.code === lang) || languages[0];
